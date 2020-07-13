@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #ffffff;
+  font-family: Palatino Linotype, sans-serif;
+}
+
+/*****************************the navigation bar****************************/
+#header-nav {
+  background-color: #9f9f9f;
+  border-radius: 0;
+  border: 0;
+  border: 1px solid black;
+}
+.container {
+  margin-left: 0;
+}
+/*****************************the company name****************************/
+.navbar-brand h1 {
+  font-family: Palatino Linotype, serif;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  line-height: .75;
+}
+#menu_option {
+  border: 1px solid black;
+  font-size: 1.5em;
+  background-color: #ffffff;
+}
+h1 {
+    margin-bottom: 2%;
+    font-size: 2em;
+    font-weight: bold;
+}
+#title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6em;
+}
+section {
+  margin-left: 2%;
+}
+#main {
+  background-color: #9f9f9f;
+  height: 1500px;
+}
+p {
+  font-size: 1.5em;
+}
+/************************ large devices **************************/
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    width: 98%;
+  }
+}
+/************************ medium devices ************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-sm-12 {
+    width: 98%;
+  }
+}
+/************************* small devices *************************/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    width: 98%;
+  }
+}
+/********************** extra small devices **********************/
+@media (max-width: 767px) {
+  .col-xs-12 {
+    width: 70%;
+  }
+  section {
+    margin-left: 24%;
+  }
+}
+/********************** end **********************/
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e2e2e2;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
